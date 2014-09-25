@@ -4,12 +4,6 @@ Package.describe({
   git: "https://github.com/Nemo64/meteor-bootstrap-data"
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('bootstrap-data');
-  api.addFiles('bootstrap-data-tests.js');
-});
-
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.2.2');
   api.addFiles('bootstrap-data.js', 'server');
