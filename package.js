@@ -1,6 +1,6 @@
 Package.describe({
   summary: "bootstrap data",
-  version: "3.3.0",
+  version: "3.3.0_1",
   git: "https://github.com/Nemo64/meteor-bootstrap-data"
 });
 
