@@ -32,6 +32,7 @@ cd ..
 
 cat << HEREDOC > ${PACKAGE_JS}
 Package.describe({
+  name: "nemo64:bootstrap-data",
   summary: "bootstrap data",
   version: "${PUBLISH_VERSION}",
   git: "https://github.com/Nemo64/meteor-bootstrap-data.git"
