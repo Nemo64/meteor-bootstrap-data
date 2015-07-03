@@ -4,8 +4,8 @@ set -e
 set -u
 set -o pipefail
 
-BOOTSTRAP_TAG="v3.3.4"
-PUBLISH_VERSION="3.3.4_1"
+BOOTSTRAP_TAG="v3.3.5"
+PUBLISH_VERSION="3.3.5"
 
 BOOTSTRAP_DIR="bootstrap"
 BOOTSTRAP_LESS_DIR="$BOOTSTRAP_DIR/less"

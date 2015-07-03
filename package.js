@@ -1,7 +1,7 @@
 Package.describe({
   name: "nemo64:bootstrap-data",
   summary: "bootstrap data",
-  version: "3.3.4_1",
+  version: "3.3.5",
   git: "https://github.com/Nemo64/meteor-bootstrap-data.git"
 });
 
@@ -50,6 +50,7 @@ Package.onUse(function(api) {
     'bootstrap/less/mixins/panels.less',
     'bootstrap/less/mixins/progress-bar.less',
     'bootstrap/less/mixins/reset-filter.less',
+    'bootstrap/less/mixins/reset-text.less',
     'bootstrap/less/mixins/resize.less',
     'bootstrap/less/mixins/responsive-visibility.less',
     'bootstrap/less/mixins/size.less',
